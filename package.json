@@ -1,0 +1,29 @@
+{
+  "name": "hwk4-cad",
+  "version": "1.19.2",
+  "private": true,
+  "description": "",
+  "scripts": {
+    "start": "npx webpack-dev-server --inline --open",
+    "build": "npx webpack",
+    "watch": "npx webpack --watch",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/jquery": "^3.3.29",
+    "@types/node": "^8.10.47",
+    "awesome-typescript-loader": "^5.2.1",
+    "source-map-loader": "^0.2.4",
+    "ts-loader": "^5.4.4",
+    "typescript": "^3.4.5",
+    "webpack": "^4.30.0",
+    "webpack-cli": "^3.3.1",
+    "webpack-dev-server": "^3.3.1"
+  },
+  "dependencies": {
+    "bootstrap": "^3.3.7",
+    "jquery": "^3.4.0"
+  }
+}
